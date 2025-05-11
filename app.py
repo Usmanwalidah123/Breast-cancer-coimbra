@@ -9,7 +9,7 @@ import joblib
 
 # Page config
 st.set_page_config(page_title="Breast Cancer AI Explorer", layout="wide")
-st.title("🎗️ Leveraging AI in Breast Cancer Treatment: Interactive Explorer")
+st.title("Leveraging AI in Breast Cancer Treatment: Interactive Explorer")
 
 @st.cache_data
 def load_data(uploaded_file=None):
